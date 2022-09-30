@@ -1,4 +1,4 @@
-# Desafio_Modelo_Conceitual_Oficina_Mec-nica
+# Desafio_Modelo_Conceitual_Oficina_Mecânica
 Desafio DIO construindo do zero um esquema conceitual para execução de ordens de serviço em uma Oficina mecânica.
 
 ### Premissas do Modelo
@@ -13,3 +13,8 @@ Desafio DIO construindo do zero um esquema conceitual para execução de ordens 
 8 - Cada OS possui: número, data de emissão, valor, status e uma data para conclusão dos trabalhos.
 9 - Uma OS pode ser composta por vários serviços e um serviço pode estar contido em mais de uma OS.
 10 - Uma OS pode ter vários tipos de peça e uma peça pode estar presente em mais de uma OS.
+
+#### Descrição
+
+O modelo foi desenvolvido baseado nas premissas acima.
+Onde um cliente pode ter mais de um veiculo que gera uma OS e a equipe que analisa, executa a OS do veículo.
